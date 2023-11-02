@@ -34,6 +34,12 @@ let loop = true;
 
 const songlist = [
   {
+    name: "Sensiz Ben",
+    link: "assets/sensizben.mp3",
+    artist: "Pera",
+    image: "assets/ben.jpg",
+  },
+  {
     name: "Anlat Ona",
     link: "assets/yedinciEv.mp3",
     artist: "Yedinci Ev",
