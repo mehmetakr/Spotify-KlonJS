@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+   
+  height: 100vh;
+  background: linear-gradient(to bottom, green, black);
+}
+
+.musicplayer {
+  font-size: 40 px;
+  background-color: aliceblue;
+  width: 80vw;
+  max-width: 35em;
+  padding: 4em 2em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px white;
+  border-radius: 10px;
+}
+
+.musicplayer button {
+  border: none;
+}
+
+img {
+  width: 100%;
+  margin-top: 1.25em;
+  border-radius: 10px;
+  max-height: 500px;
+  box-shadow: 0 0 20px black;
+}
+
+#playlist {
+  float: right;
+}
+.songdetails {
+  font-family: "poppins", sans-serif;
+  text-align: center;
+}
+.songdetails #songname {
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+#playlist.s .songdetails #songartist {
+  font-size: 0.9em;
+}
+
+.playeroptions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 1.25rem;
+  margin: 1.35rem 0 0.6rem 0;
+}
+
+#play,
+#pause {
+  height: 2.9em;
+  width: 2.9em;
+  color: white;
+  background-color: blue;
+
+  border-radius: 50%;
+  font-size: 2em;
+}
+
+#back,
+#next {
+  color: black;
+  font-size: 1.5em;
+}
+
+#shuffle,
+#repeat {
+  color: gray;
+  font-size: 1em;
+}
+
+.hide {
+  display: none;
+}
+
+#progresbar {
+  width: 100%;
+  height: 0.3em;
+  background-color: gray;
+  margin: 1em 0;
+  border-radius: 2em;
+  cursor: pointer;
+  position: relative;
+}
+
+#currentprogres {
+  background-color: blue;
+  border-radius: 2em;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.timecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Open sans ", sans-serif;
+}
+
+button.active i {
+  color: blue;
+}
+
+#playlistcontainer {
+  background-color: antiquewhite;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  transform: translate((-50%, -50%));
+  box-shadow: 0 0 10px gray;
+  scroll-behavior: block;
+  overflow: auto;
+}
+#closebutton {
+  margin-left: 90%;
+  cursor: pointer;
+  width: 2em;
+  height: 2em;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  scroll-behavior: block;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 1rem 0;
+  background-color: burlywood;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.playlist-song-details {
+  margin-left: 1rem;
+}
+
+.playlist-image-container{
+
+width: 4em;
+margin-left:10px ;
+
+
+}
+.playlist-song-details{
+
+
+display: block;
+
+}

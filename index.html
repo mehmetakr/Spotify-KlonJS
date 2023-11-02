@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mp3Calar</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="https://kit.fontawesome.com/cb06fec0a1.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&family=Poppins:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- müzik çalıcısı -->
+    <div class="musicplayer">
+        <!-- oynata listesi -->
+        <button id="playlist">
+            <i class="fa-solid fa-angles-down"></i>
+        </button>
+
+        <!-- şarkıcı resmi  -->
+        <img src="assets/anlatona.jpeg" alt="" id="songImage">
+
+        <!-- sarki detayi -->
+
+        <div class="songdetails">
+
+            <p id="songname"></p>
+            <p id="songartist"></p>
+        </div>
+
+
+        <!-- oynatma seçenekleri -->
+        <div class="playeroptions">
+
+            <button id="shuffle">
+
+                <i class="fa-solid fa-shuffle"></i>
+
+            </button>
+
+            <button id="back">
+                <i class="fa-solid fa-backward-step"></i>
+
+
+            </button>
+
+            <button id="play">
+
+                <i class="fa-solid fa-play"></i>
+
+            </button>
+
+            <button id="pause">
+
+                <i class="fa-solid fa-pause"></i>
+
+            </button>
+
+            <button id="next">
+
+                <i class="fa-solid fa-forward-step"></i>
+
+
+            </button>
+
+            <button id="repeat">
+
+                <i class="fa-solid fa-repeat"></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- ses -->
+        <audio id="audio" preload="metadata"></audio>
+
+
+        <div id="progresbar">
+
+
+            <div id="currentprogres"></div>
+        </div>
+
+
+        <!-- zaman -->
+
+        <div class="timecontainer">
+            <span id="currentTime">01.23</span>
+            <span id="maxduration">04.43 </span>
+
+        </div>
+        <!--  sarkı listesi -->
+        <div id="playlistcontainer">
+
+            <button id="closebutton">
+
+                <i class="fa-solid fa-xmark"></i> 
+
+            </button>
+
+            <ul id="playlistsong"></ul>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
