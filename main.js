@@ -40,6 +40,12 @@ const songlist = [
     image: "assets/ben.jpg",
   },
   {
+    name: "Where is My Mind",
+    link: "assets/wherismy.mp3",
+    artist: "Pixies",
+    image: "assets/biz.jpg",
+  },
+  {
     name: "Anlat Ona",
     link: "assets/yedinciEv.mp3",
     artist: "Yedinci Ev",
