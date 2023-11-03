@@ -45,9 +45,9 @@ const songlist = [
   },
   {
     name: "Where is My Mind",
-    link: "assets/wherismy.mp3",
+    link: "assets/whereismy.mp3",
     artist: "Pixies",
-    image: "assets/biz.jpg",
+    image: "assets/ben.jpg",
   },
   {
     name: "Anlat Ona",
