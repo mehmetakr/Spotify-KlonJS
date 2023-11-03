@@ -24,6 +24,10 @@ const playlistSongs = document.getElementById("playlistsong");
 
 const currentProgres = document.getElementById("currentprogres");
 
+alert("Mehmet Akpınardan size mesaj var 😀😍 :")
+
+alert("Seni Seviyorum 🤗🤭")
+
 //sıra
 let index;
 
